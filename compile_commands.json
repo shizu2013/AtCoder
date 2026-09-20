@@ -1,0 +1,12 @@
+[
+  {
+    "file": "ABC/476/C.cpp",
+    "arguments": [
+      "/usr/local/bin/g++",
+      "ABC/476/C.cpp",
+      "-Wall",
+      "-O2"
+    ],
+    "directory": "/Volumes/SSD/AtCoder"
+  }
+]
