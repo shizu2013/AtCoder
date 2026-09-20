@@ -13,5 +13,5 @@ git add .;
 git commit -m "$COMMIT_MESSAGE"
 git push
 echo "==> Correct Commit & Push"
-cd $"CARRENT_DIR"
+
 
