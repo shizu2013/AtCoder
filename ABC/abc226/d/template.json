@@ -1,0 +1,15 @@
+{
+  "name": "my-cpp",
+  "submit_file": "main.cpp",
+  "language_id": 6017,
+  "exec_command": [
+    "./a.out"
+  ],
+  "compile_command": [
+    "g++-16",
+    "main.cpp",
+    "-o",
+    "a.out"
+  ],
+  "pre_submit": null
+}

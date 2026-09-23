@@ -1,0 +1,187 @@
+{
+  "id": "abc227",
+  "contest_type": "ABC",
+  "title": "KEYENCE Programming Contest 2021 (AtCoder Beginner Contest 227)",
+  "problems": {
+    "D": {
+      "id": "abc227_d",
+      "contest_id": "abc227",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc227/tasks/abc227_d",
+      "title": "Project Planning\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 3\n2 3 4\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "4 2\n1 1 3 4\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "4 3\n1 1 3 4\n",
+          "expected": "2\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc227_g",
+      "contest_id": "abc227",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc227/tasks/abc227_g",
+      "title": "Divisors of Binomial Coefficient\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 2\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "103 3\n",
+          "expected": "8\n"
+        },
+        {
+          "input": "1000000000000 1000000\n",
+          "expected": "110520107\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc227_c",
+      "contest_id": "abc227",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc227/tasks/abc227_c",
+      "title": "ABC conjecture\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n",
+          "expected": "5\n"
+        },
+        {
+          "input": "100\n",
+          "expected": "323\n"
+        },
+        {
+          "input": "100000000000\n",
+          "expected": "5745290566750\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc227_b",
+      "contest_id": "abc227",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc227/tasks/abc227_b",
+      "title": "KEYENCE building\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n10 20 39\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "5\n666 777 888 777 666\n",
+          "expected": "3\n"
+        }
+      ]
+    },
+    "A": {
+      "id": "abc227_a",
+      "contest_id": "abc227",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc227/tasks/abc227_a",
+      "title": "Last Card\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 3 2\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "1 100 1\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "3 14 2\n",
+          "expected": "3\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc227_f",
+      "contest_id": "abc227",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc227/tasks/abc227_f",
+      "title": "Treasure Hunting\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "1 3 2\n3 4 5\n",
+          "expected": "9\n"
+        },
+        {
+          "input": "2 2 1\n3 2\n4 3\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "3 5 3\n4 7 8 6 4\n6 7 3 10 2\n3 8 1 10 4\n",
+          "expected": "21\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc227_e",
+      "contest_id": "abc227",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc227/tasks/abc227_e",
+      "title": "Swap\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "KEY\n1\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "KKEE\n2\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "KKEEYY\n1000000000\n",
+          "expected": "90\n"
+        }
+      ]
+    },
+    "H": {
+      "id": "abc227_h",
+      "contest_id": "abc227",
+      "label": "H",
+      "url": "https://atcoder.jp/contests/abc227/tasks/abc227_h",
+      "title": "Eat Them All\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "1 1 1\n1 1 1\n1 2 1\n",
+          "expected": "DDRUDRUULL\n"
+        },
+        {
+          "input": "2 4 2\n2 1 1\n1 1 2\n",
+          "expected": "NO\n"
+        },
+        {
+          "input": "2 2 3\n2 1 2\n1 3 2\n",
+          "expected": "DUDDRUDRLRUULRDULL\n"
+        }
+      ]
+    }
+  }
+}
