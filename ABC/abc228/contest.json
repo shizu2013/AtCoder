@@ -1,0 +1,175 @@
+{
+  "id": "abc228",
+  "contest_type": "ABC",
+  "title": "TOYOTA SYSTEMS Programming Contest 2021(AtCoder Beginner Contest 228)",
+  "problems": {
+    "C": {
+      "id": "abc228_c",
+      "contest_id": "abc228",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc228/tasks/abc228_c",
+      "title": "Final Day\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 1\n178 205 132\n112 220 96\n36 64 20\n",
+          "expected": "Yes\nYes\nNo\n"
+        },
+        {
+          "input": "2 1\n300 300 300\n200 200 200\n",
+          "expected": "Yes\nYes\n"
+        },
+        {
+          "input": "4 2\n127 235 78\n192 134 298\n28 56 42\n96 120 250\n",
+          "expected": "Yes\nYes\nNo\nYes\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc228_b",
+      "contest_id": "abc228",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc228/tasks/abc228_b",
+      "title": "Takahashi's Secret\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 2\n3 1 1 2\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "20 12\n7 11 10 1 7 20 14 2 17 3 2 5 19 20 8 14 18 2 10 10\n",
+          "expected": "7\n"
+        }
+      ]
+    },
+    "A": {
+      "id": "abc228_a",
+      "contest_id": "abc228",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc228/tasks/abc228_a",
+      "title": "On and Off\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "7 20 12\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "20 7 12\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "23 0 23\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc228_d",
+      "contest_id": "abc228",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc228/tasks/abc228_d",
+      "title": "Linear Probing\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "4\n1 1048577\n1 1\n2 2097153\n2 3\n",
+          "expected": "1048577\n-1\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc228_f",
+      "contest_id": "abc228",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc228/tasks/abc228_f",
+      "title": "Stamp Game\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 4 2 3 3 1\n3 1 4 1\n5 9 2 6\n5 3 5 8\n",
+          "expected": "19\n"
+        },
+        {
+          "input": "3 4 2 3 3 4\n3 1 4 1\n5 9 2 6\n5 3 5 8\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "10 10 3 7 2 3\n9 7 19 7 10 4 13 9 4 8\n10 15 16 3 18 19 17 12 13 2\n12 18 4 9 13 13 6 13 5 2\n16 12 2 14 18 17 14 7 8 12\n12 13 17 12 14 15 19 7 13 15\n5 2 16 10 4 6 1 2 7 8\n10 14 14 10 9 13 11 4 9 19\n16 12 3 19 19 6 2 19 14 20\n15 3 19 19 2 10 1 4 3 15\n13 20 5 6 19 1 7 17 10 19\n",
+          "expected": "180\n"
+        }
+      ]
+    },
+    "H": {
+      "id": "abc228_h",
+      "contest_id": "abc228",
+      "label": "H",
+      "url": "https://atcoder.jp/contests/abc228/tasks/abc228_h",
+      "title": "Histogram\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 5\n3 2\n2 4\n4 3\n",
+          "expected": "12\n"
+        },
+        {
+          "input": "1 1\n1 1\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "7 7\n3 2\n1 7\n4 1\n1 8\n5 2\n9 8\n2 1\n",
+          "expected": "29\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc228_e",
+      "contest_id": "abc228",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc228/tasks/abc228_e",
+      "title": "Integer Sequence Fair\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 2 2\n",
+          "expected": "16\n"
+        },
+        {
+          "input": "3 14 15926535\n",
+          "expected": "109718301\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc228_g",
+      "contest_id": "abc228",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc228/tasks/abc228_g",
+      "title": "Digits on Grid\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "2 2 1\n31\n41\n",
+          "expected": "5\n"
+        },
+        {
+          "input": "2 3 4\n777\n777\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "10 10 300\n3181534389\n4347471911\n4997373645\n5984584273\n1917179465\n3644463294\n1234548423\n6826453721\n5892467783\n1211598363\n",
+          "expected": "685516949\n"
+        }
+      ]
+    }
+  }
+}
