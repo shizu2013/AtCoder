@@ -2,5 +2,17 @@
 using namespace std;
 
 int main() {
-    // S < X < TならYes,もし24時を跨ぐ時はTとXに24を加算する
+    int S, T, X;
+    cin >> S >> T >> X;
+
+    if (S > T){
+        if (S <= X || X < T) {
+            cout << "Yes\n";
+        }
+        else cout << "No\n";
+        return 0;
+    }
+
+    if (S <= X && X < T) cout << "Yes\n";
+    else cout <<"No\n";
 }
