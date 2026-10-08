@@ -1,0 +1,175 @@
+{
+  "id": "abc236",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 236",
+  "problems": {
+    "A": {
+      "id": "abc236_a",
+      "contest_id": "abc236",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_a",
+      "title": "chukodai\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "chokudai\n3 5\n",
+          "expected": "chukodai\n"
+        },
+        {
+          "input": "aa\n1 2\n",
+          "expected": "aa\n"
+        },
+        {
+          "input": "aaaabbbb\n1 8\n",
+          "expected": "baaabbba\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc236_b",
+      "contest_id": "abc236",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_b",
+      "title": "Who is missing?\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n1 3 2 3 3 2 2 1 1 1 2\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "1\n1 1 1\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "4\n3 2 1 1 2 4 4 4 4 3 1 3 2 1 3\n",
+          "expected": "2\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc236_c",
+      "contest_id": "abc236",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_c",
+      "title": "Route Map\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 3\ntokyo kanda akiba okachi ueno\ntokyo akiba ueno\n",
+          "expected": "Yes\nNo\nYes\nNo\nYes\n"
+        },
+        {
+          "input": "7 7\na t c o d e r\na t c o d e r\n",
+          "expected": "Yes\nYes\nYes\nYes\nYes\nYes\nYes\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc236_d",
+      "contest_id": "abc236",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_d",
+      "title": "Dance\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2\n4 0 1\n5 3\n2\n",
+          "expected": "6\n"
+        },
+        {
+          "input": "1\n5\n",
+          "expected": "5\n"
+        },
+        {
+          "input": "5\n900606388 317329110 665451442 1045743214 260775845 726039763 57365372 741277060 944347467\n369646735 642395945 599952146 86221147 523579390 591944369 911198494 695097136\n138172503 571268336 111747377 595746631 934427285 840101927 757856472\n655483844 580613112 445614713 607825444 252585196 725229185\n827291247 105489451 58628521 1032791417 152042357\n919691140 703307785 100772330 370415195\n666350287 691977663 987658020\n1039679956 218233643\n70938785\n",
+          "expected": "1073289207\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc236_e",
+      "contest_id": "abc236",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_e",
+      "title": "Average and Median\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6\n2 1 2 1 1 10\n",
+          "expected": "4\n2\n"
+        },
+        {
+          "input": "7\n3 1 4 1 5 9 2\n",
+          "expected": "5.250000000\n4\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc236_h",
+      "contest_id": "abc236",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_h",
+      "title": "Distinct Multiples\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 7\n2 3 4\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "3 3\n1 2 2\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "6 1000000000000000000\n380214083 420492929 929717250 666796775 209977152 770361643\n",
+          "expected": "325683519\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc236_f",
+      "contest_id": "abc236",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_f",
+      "title": "Spices\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2\n4 5 3\n",
+          "expected": "7\n"
+        },
+        {
+          "input": "4\n9 7 9 7 10 4 3 9 4 8 10 5 6 3 8\n",
+          "expected": "15\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc236_g",
+      "contest_id": "abc236",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc236/tasks/abc236_g",
+      "title": "Good Vertices\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 5 3\n2 3\n3 4\n1 2\n3 2\n2 2\n",
+          "expected": "-1 4 5 3\n"
+        },
+        {
+          "input": "2 1 1000000000\n1 2\n",
+          "expected": "-1 -1\n"
+        }
+      ]
+    }
+  }
+}

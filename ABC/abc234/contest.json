@@ -1,0 +1,183 @@
+{
+  "id": "abc234",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 234",
+  "problems": {
+    "A": {
+      "id": "abc234_a",
+      "contest_id": "abc234",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc234/tasks/abc234_a",
+      "title": "Weird Function\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "0\n",
+          "expected": "1371\n"
+        },
+        {
+          "input": "3\n",
+          "expected": "722502\n"
+        },
+        {
+          "input": "10\n",
+          "expected": "1111355571\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc234_b",
+      "contest_id": "abc234",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc234/tasks/abc234_b",
+      "title": "Longest Segment\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n0 0\n0 1\n1 1\n",
+          "expected": "1.4142135624\n"
+        },
+        {
+          "input": "5\n315 271\n-2 -621\n-205 -511\n-952 482\n165 463\n",
+          "expected": "1455.7159750446\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc234_c",
+      "contest_id": "abc234",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc234/tasks/abc234_c",
+      "title": "Happy New Year!\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n",
+          "expected": "22\n"
+        },
+        {
+          "input": "11\n",
+          "expected": "2022\n"
+        },
+        {
+          "input": "923423423420220108\n",
+          "expected": "220022020000202020002022022000002020002222002200002022002200\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc234_d",
+      "contest_id": "abc234",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc234/tasks/abc234_d",
+      "title": "Prefix K-th Max\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2\n1 2 3\n",
+          "expected": "1\n2\n"
+        },
+        {
+          "input": "11 5\n3 7 2 5 11 6 1 9 8 10 4\n",
+          "expected": "2\n3\n3\n5\n6\n7\n7\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc234_e",
+      "contest_id": "abc234",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc234/tasks/abc234_e",
+      "title": "Arithmetic Number\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "152\n",
+          "expected": "159\n"
+        },
+        {
+          "input": "88\n",
+          "expected": "88\n"
+        },
+        {
+          "input": "8989898989\n",
+          "expected": "9876543210\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc234_h",
+      "contest_id": "abc234",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc234/tasks/abc234_h",
+      "title": "Enumerate Pairs\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "6 5\n2 0\n2 2\n3 4\n0 0\n5 5\n8 3\n",
+          "expected": "9\n1 2\n1 3\n1 4\n2 3\n2 4\n2 5\n3 4\n3 5\n5 6\n"
+        },
+        {
+          "input": "2 1414213562\n0 0\n1000000000 1000000000\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "10 150\n300 300\n300 400\n300 500\n400 300\n400 400\n400 400\n400 500\n500 300\n500 400\n500 500\n",
+          "expected": "29\n1 2\n1 4\n1 5\n1 6\n2 3\n2 4\n2 5\n2 6\n2 7\n3 5\n3 6\n3 7\n4 5\n4 6\n4 8\n4 9\n5 6\n5 7\n5 8\n5 9\n5 10\n6 7\n6 8\n6 9\n6 10\n7 9\n7 10\n8 9\n9 10\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc234_f",
+      "contest_id": "abc234",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc234/tasks/abc234_f",
+      "title": "Reordering\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "aab\n",
+          "expected": "8\n"
+        },
+        {
+          "input": "aaa\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "abcdefghijklmnopqrstuvwxyz\n",
+          "expected": "149621752\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc234_g",
+      "contest_id": "abc234",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc234/tasks/abc234_g",
+      "title": "Divide a Sequence\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n1 2 3\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "4\n1 10 1 10\n",
+          "expected": "90\n"
+        },
+        {
+          "input": "10\n699498050 759726383 769395239 707559733 72435093 537050110 880264078 699299140 418322627 134917794\n",
+          "expected": "877646588\n"
+        }
+      ]
+    }
+  }
+}

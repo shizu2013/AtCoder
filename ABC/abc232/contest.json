@@ -1,0 +1,183 @@
+{
+  "id": "abc232",
+  "contest_type": "ABC",
+  "title": "M-SOLUTIONS Programming Contest 2021(AtCoder Beginner Contest 232)",
+  "problems": {
+    "A": {
+      "id": "abc232_a",
+      "contest_id": "abc232",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc232/tasks/abc232_a",
+      "title": "QQ solver\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3x7\n",
+          "expected": "21\n"
+        },
+        {
+          "input": "9x9\n",
+          "expected": "81\n"
+        },
+        {
+          "input": "1x1\n",
+          "expected": "1\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc232_b",
+      "contest_id": "abc232",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc232/tasks/abc232_b",
+      "title": "Caesar Cipher\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "abc\nijk\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "z\na\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "ppq\nqqp\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "atcoder\natcoder\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc232_c",
+      "contest_id": "abc232",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc232/tasks/abc232_c",
+      "title": "Graph Isomorphism\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 4\n1 2\n1 3\n1 4\n3 4\n1 3\n1 4\n2 3\n3 4\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "5 6\n1 2\n1 3\n1 4\n3 4\n3 5\n4 5\n1 2\n1 3\n1 4\n1 5\n3 5\n4 5\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "8 0\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc232_d",
+      "contest_id": "abc232",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc232/tasks/abc232_d",
+      "title": "Weak Takahashi\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 4\n.#..\n..#.\n..##\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "1 1\n.\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "5 5\n.....\n.....\n.....\n.....\n.....\n",
+          "expected": "9\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc232_e",
+      "contest_id": "abc232",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc232/tasks/abc232_e",
+      "title": "Rook Path\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 2 2\n1 2 2 1\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "1000000000 1000000000 1000000\n1000000000 1000000000 1000000000 1000000000\n",
+          "expected": "24922282\n"
+        },
+        {
+          "input": "3 3 3\n1 3 3 3\n",
+          "expected": "9\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc232_f",
+      "contest_id": "abc232",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc232/tasks/abc232_f",
+      "title": "Simple Operations on Sequence\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 3 5\n4 2 5 2\n6 4 2 1\n",
+          "expected": "16\n"
+        },
+        {
+          "input": "5 12345 6789\n1 2 3 4 5\n1 2 3 4 5\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "18 20719114 5117250357733867\n10511029 36397527 63027379 44706927 47672230 79861204 57882493 42931589 51053644 52300688 43971370 26515475 62139996 41282303 34022578 12523039 6696497 64922712\n14720753 4621362 25269832 91410838 86751784 32741849 6602693 60719353 28911226 88280613 18745325 80675202 34289776 37849132 99280042 73760634 43897718 40659077\n",
+          "expected": "13104119429316474\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc232_g",
+      "contest_id": "abc232",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc232/tasks/abc232_g",
+      "title": "Modulo Shortest Path\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "4 12\n10 11 6 0\n8 7 4 1\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "10 1000\n785 934 671 520 794 168 586 667 411 332\n363 763 40 425 524 311 139 875 548 198\n",
+          "expected": "462\n"
+        }
+      ]
+    },
+    "H": {
+      "id": "abc232_h",
+      "contest_id": "abc232",
+      "label": "H",
+      "url": "https://atcoder.jp/contests/abc232/tasks/abc232_h",
+      "title": "King's Tour\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2 3 2\n",
+          "expected": "1 1\n1 2\n2 1\n2 2\n3 1\n3 2\n"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "id": "abc233",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 233",
+  "problems": {
+    "A": {
+      "id": "abc233_a",
+      "contest_id": "abc233",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_a",
+      "title": "10yen Stamp\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "80 94\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "1000 63\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "270 750\n",
+          "expected": "48\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc233_b",
+      "contest_id": "abc233",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_b",
+      "title": "A Reverse\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 7\nabcdefgh\n",
+          "expected": "abgfedch\n"
+        },
+        {
+          "input": "1 7\nreviver\n",
+          "expected": "reviver\n"
+        },
+        {
+          "input": "4 13\nmerrychristmas\n",
+          "expected": "meramtsirhcyrs\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc233_c",
+      "contest_id": "abc233",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_c",
+      "title": "Product\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 40\n3 1 8 4\n2 10 5\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "3 200\n3 10 10 10\n3 10 10 10\n5 2 2 2 2 2\n",
+          "expected": "45\n"
+        },
+        {
+          "input": "3 1000000000000000000\n2 1000000000 1000000000\n2 1000000000 1000000000\n2 1000000000 1000000000\n",
+          "expected": "0\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc233_d",
+      "contest_id": "abc233",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_d",
+      "title": "Count Interval\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6 5\n8 -3 5 7 0 -4\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "2 -1000000000000000\n1000000000 -1000000000\n",
+          "expected": "0\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc233_e",
+      "contest_id": "abc233",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_e",
+      "title": "Σ[k=0..10^100]floor(X／10^k)\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "1225\n",
+          "expected": "1360\n"
+        },
+        {
+          "input": "99999\n",
+          "expected": "111105\n"
+        },
+        {
+          "input": "314159265358979323846264338327950288419716939937510\n",
+          "expected": "349065850398865915384738153697722542688574377708317\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc233_h",
+      "contest_id": "abc233",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_h",
+      "title": "Manhattan Christmas Tree \n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 7000,
+      "sample_cases": [
+        {
+          "input": "4\n3 3\n4 6\n7 4\n2 5\n6\n3 5 1\n3 5 2\n3 5 3\n3 5 4\n100 200 3\n300 200 1\n",
+          "expected": "1\n2\n2\n5\n293\n489\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc233_f",
+      "contest_id": "abc233",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_f",
+      "title": "Swap and Sort\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6\n5 3 2 4 6 1\n4\n1 5\n5 6\n1 2\n2 3\n",
+          "expected": "3\n4 2 1\n"
+        },
+        {
+          "input": "5\n3 4 1 2 5\n2\n1 3\n2 5\n",
+          "expected": "-1\n"
+        },
+        {
+          "input": "4\n1 2 3 4\n6\n1 2\n1 3\n1 4\n2 3\n2 4\n3 4\n",
+          "expected": "0\n\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc233_g",
+      "contest_id": "abc233",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc233/tasks/abc233_g",
+      "title": "Strongest Takahashi\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n##...\n.##..\n#.#..\n.....\n....#\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "3\n...\n...\n...\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "21\n.....................\n.....................\n...#.#...............\n....#.............#..\n...#.#...........#.#.\n..................#..\n.....................\n.....................\n.....................\n..........#.....#....\n......#..###.........\n........#####..#.....\n.......#######.......\n.....#..#####........\n.......#######.......\n......#########......\n.......#######..#....\n......#########......\n..#..###########.....\n.........###.........\n.........###.........\n",
+          "expected": "19\n"
+        }
+      ]
+    }
+  }
+}

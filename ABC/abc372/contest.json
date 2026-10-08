@@ -1,0 +1,160 @@
+{
+  "id": "abc372",
+  "contest_type": "ABC",
+  "title": "UNIQUE VISION Programming Contest 2024 Autumn (AtCoder Beginner Contest 372)",
+  "problems": {
+    "A": {
+      "id": "abc372_a",
+      "contest_id": "abc372",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_a",
+      "title": "delete .\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": ".v.\n",
+          "expected": "v\n"
+        },
+        {
+          "input": "chokudai\n",
+          "expected": "chokudai\n"
+        },
+        {
+          "input": "...\n",
+          "expected": "\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc372_b",
+      "contest_id": "abc372",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_b",
+      "title": "3^A\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6\n",
+          "expected": "2\n1 1\n"
+        },
+        {
+          "input": "100\n",
+          "expected": "4\n2 0 2 4\n"
+        },
+        {
+          "input": "59048\n",
+          "expected": "20\n0 0 1 1 2 2 3 3 4 4 5 5 6 6 7 7 8 8 9 9\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc372_c",
+      "contest_id": "abc372",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_c",
+      "title": "Count ABC Again\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "7 4\nABCDABC\n4 B\n3 A\n5 C\n4 G\n",
+          "expected": "2\n1\n1\n0\n"
+        },
+        {
+          "input": "3 3\nABC\n1 A\n2 B\n3 C\n",
+          "expected": "1\n1\n1\n"
+        },
+        {
+          "input": "15 10\nBBCCBCACCBACACA\n9 C\n11 B\n5 B\n11 B\n4 A\n8 C\n8 B\n5 B\n7 B\n14 B\n",
+          "expected": "0\n0\n0\n0\n1\n1\n2\n2\n1\n1\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc372_d",
+      "contest_id": "abc372",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_d",
+      "title": "Buildings\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n2 1 4 3 5\n",
+          "expected": "3 2 2 1 0\n"
+        },
+        {
+          "input": "4\n1 2 3 4\n",
+          "expected": "3 2 1 0\n"
+        },
+        {
+          "input": "10\n1 9 6 5 2 7 10 4 8 3\n",
+          "expected": "2 3 3 3 2 1 2 1 1 0\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc372_e",
+      "contest_id": "abc372",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_e",
+      "title": "K-th Largest Connected Components\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 10\n1 1 2\n2 1 1\n2 1 2\n2 1 3\n1 1 3\n1 2 3\n1 3 4\n2 1 1\n2 1 3\n2 1 5\n",
+          "expected": "2\n1\n-1\n4\n2\n-1\n"
+        },
+        {
+          "input": "6 20\n1 3 4\n1 3 5\n2 1 1\n2 3 1\n1 1 5\n2 6 9\n2 1 3\n2 6 1\n1 4 6\n2 2 1\n2 6 2\n2 4 7\n1 1 4\n2 6 2\n2 3 4\n1 2 5\n2 4 1\n1 1 6\n2 3 3\n2 1 3\n",
+          "expected": "1\n5\n-1\n3\n6\n2\n5\n-1\n5\n3\n6\n4\n4\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc372_f",
+      "contest_id": "abc372",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_f",
+      "title": "Teleporting Takahashi 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "6 2 5\n1 4\n2 5\n",
+          "expected": "5\n"
+        },
+        {
+          "input": "10 0 200000\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "199 10 1326\n122 39\n142 49\n164 119\n197 127\n188 145\n69 80\n6 120\n24 160\n18 154\n185 27\n",
+          "expected": "451022766\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc372_g",
+      "contest_id": "abc372",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc372/tasks/abc372_g",
+      "title": "Ax + By < C\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "2\n2\n1 1 4\n1 2 5\n1\n1 1 2\n",
+          "expected": "2\n0\n"
+        },
+        {
+          "input": "3\n7\n138 16011 918976\n5478 7748 499926\n5234 17727 748589\n1157 10511 643136\n31200 3005 721285\n28839 14469 798851\n1933 5378 864127\n9\n17775 1665 386430\n37001 863 922418\n9756 4182 746671\n12379 9106 807578\n3984 4049 640539\n25333 9869 780810\n20372 7000 688738\n16107 11974 827227\n10779 10531 770510\n5\n4916 14132 460944\n11856 45422 610561\n56014 18216 825793\n10363 6220 945356\n37418 33866 851593\n",
+          "expected": "660\n995\n140\n"
+        }
+      ]
+    }
+  }
+}

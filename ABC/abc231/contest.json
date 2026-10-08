@@ -1,0 +1,187 @@
+{
+  "id": "abc231",
+  "contest_type": "ABC",
+  "title": "Panasonic Programming Contest 2021(AtCoder Beginner Contest 231)",
+  "problems": {
+    "A": {
+      "id": "abc231_a",
+      "contest_id": "abc231",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_a",
+      "title": "Water Pressure\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "1000\n",
+          "expected": "10\n"
+        },
+        {
+          "input": "50\n",
+          "expected": "0.5\n"
+        },
+        {
+          "input": "3141\n",
+          "expected": "31.41\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc231_b",
+      "contest_id": "abc231",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_b",
+      "title": "Election\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\nsnuke\nsnuke\ntakahashi\ntakahashi\ntakahashi\n",
+          "expected": "takahashi\n"
+        },
+        {
+          "input": "5\ntakahashi\ntakahashi\naoki\ntakahashi\nsnuke\n",
+          "expected": "takahashi\n"
+        },
+        {
+          "input": "1\na\n",
+          "expected": "a\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc231_c",
+      "contest_id": "abc231",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_c",
+      "title": "Counting 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 1\n100 160 130\n120\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "5 5\n1 2 3 4 5\n6\n5\n4\n3\n2\n",
+          "expected": "0\n1\n2\n3\n4\n"
+        },
+        {
+          "input": "5 5\n804289384 846930887 681692778 714636916 957747794\n424238336\n719885387\n649760493\n596516650\n189641422\n",
+          "expected": "5\n3\n5\n5\n5\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc231_d",
+      "contest_id": "abc231",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_d",
+      "title": "Neighbors\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 2\n1 3\n2 3\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "4 3\n1 4\n2 4\n3 4\n",
+          "expected": "No\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc231_e",
+      "contest_id": "abc231",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_e",
+      "title": "Minimal payments\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 87\n1 10 100\n",
+          "expected": "5\n"
+        },
+        {
+          "input": "2 49\n1 7\n",
+          "expected": "7\n"
+        },
+        {
+          "input": "10 123456789012345678\n1 100 10000 1000000 100000000 10000000000 1000000000000 100000000000000 10000000000000000 1000000000000000000\n",
+          "expected": "233\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc231_f",
+      "contest_id": "abc231",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_f",
+      "title": "Jealous Two\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n50 100 150\n1 3 2\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "3\n123456789 123456 123\n987 987654 987654321\n",
+          "expected": "6\n"
+        },
+        {
+          "input": "10\n3 1 4 1 5 9 2 6 5 3\n2 7 1 8 2 8 1 8 2 8\n",
+          "expected": "37\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc231_g",
+      "contest_id": "abc231",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_g",
+      "title": "Balls in Boxes\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 1\n1 2 3\n",
+          "expected": "665496245\n"
+        },
+        {
+          "input": "2 2\n1 2\n",
+          "expected": "499122182\n"
+        },
+        {
+          "input": "10 1000000000\n998244350 998244351 998244352 998244353 998244354 998244355 998244356 998244357 998244358 998244359\n",
+          "expected": "138512322\n"
+        }
+      ]
+    },
+    "H": {
+      "id": "abc231_h",
+      "contest_id": "abc231",
+      "label": "H",
+      "url": "https://atcoder.jp/contests/abc231/tasks/abc231_h",
+      "title": "Minimum Coloring\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 3 6\n1 1 1\n1 2 10\n1 3 100\n2 1 1000\n2 2 10000\n2 3 100000\n",
+          "expected": "1110\n"
+        },
+        {
+          "input": "1 7 7\n1 2 200000000\n1 7 700000000\n1 4 400000000\n1 3 300000000\n1 6 600000000\n1 5 500000000\n1 1 100000000\n",
+          "expected": "2800000000\n"
+        },
+        {
+          "input": "3 3 8\n3 2 1\n3 1 2\n2 3 1\n2 2 100\n2 1 100\n1 3 2\n1 2 100\n1 1 100\n",
+          "expected": "6\n"
+        }
+      ]
+    }
+  }
+}
