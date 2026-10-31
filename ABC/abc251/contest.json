@@ -1,0 +1,175 @@
+{
+  "id": "abc251",
+  "contest_type": "ABC",
+  "title": "Panasonic Programming Contest 2022(AtCoder Beginner Contest 251)",
+  "problems": {
+    "A": {
+      "id": "abc251_a",
+      "contest_id": "abc251",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc251/tasks/abc251_a",
+      "title": "Six Characters\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "abc\n",
+          "expected": "abcabc\n"
+        },
+        {
+          "input": "zz\n",
+          "expected": "zzzzzz\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc251_b",
+      "contest_id": "abc251",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc251/tasks/abc251_b",
+      "title": "At Most 3 (Judge ver.)\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 10\n1 3\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "2 1\n2 3\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "4 12\n3 3 3 3\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "7 251\n202 20 5 1 4 2 100\n",
+          "expected": "48\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc251_c",
+      "contest_id": "abc251",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc251/tasks/abc251_c",
+      "title": "Poem Online Judge\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\naaa 10\nbbb 20\naaa 30\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "5\naaa 9\nbbb 10\nccc 10\nddd 10\nbbb 11\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "10\nbb 3\nba 1\naa 4\nbb 1\nba 5\naa 9\naa 2\nab 6\nbb 5\nab 3\n",
+          "expected": "8\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc251_d",
+      "contest_id": "abc251",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc251/tasks/abc251_d",
+      "title": "At Most 3 (Contestant ver.)\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6\n",
+          "expected": "3\n1 2 3\n"
+        },
+        {
+          "input": "12\n",
+          "expected": "6\n2 5 1 2 5 1\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc251_e",
+      "contest_id": "abc251",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc251/tasks/abc251_e",
+      "title": "Takahashi and Animals\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n2 5 3 2 5\n",
+          "expected": "7\n"
+        },
+        {
+          "input": "20\n29 27 79 27 30 4 93 89 44 88 70 75 96 3 78 39 97 12 53 62\n",
+          "expected": "426\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc251_h",
+      "contest_id": "abc251",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc251/tasks/abc251_h",
+      "title": "Fill Triangle\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "6 3 4\n2 3\n5 2\n1 1\n",
+          "expected": "1 4 3 2\n"
+        },
+        {
+          "input": "1 1 1\n6 1\n",
+          "expected": "6\n"
+        },
+        {
+          "input": "111111111 9 9\n0 1\n1 10\n2 100\n3 1000\n4 10000\n5 100000\n6 1000000\n0 10000000\n1 100000000\n",
+          "expected": "1 0 4 2 5 5 5 6 3\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc251_f",
+      "contest_id": "abc251",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc251/tasks/abc251_f",
+      "title": "Two Spanning Trees\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6 8\n5 1\n4 3\n1 4\n3 5\n1 2\n2 6\n1 6\n4 2\n",
+          "expected": "1 4\n4 3\n5 3\n4 2\n6 2\n1 5\n5 3\n1 4\n2 1\n1 6\n"
+        },
+        {
+          "input": "4 3\n3 1\n1 2\n1 4\n",
+          "expected": "1 2\n1 3\n1 4\n1 4\n1 3\n1 2\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc251_g",
+      "contest_id": "abc251",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc251/tasks/abc251_g",
+      "title": "Intersection of Polygons\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n-2 -3\n0 -2\n1 0\n0 2\n-2 1\n2\n0 1\n1 0\n6\n0 0\n1 0\n0 1\n1 1\n-1 -1\n-1 -2\n",
+          "expected": "Yes\nNo\nYes\nYes\nYes\nNo\n"
+        },
+        {
+          "input": "10\n45 100\n-60 98\n-95 62\n-95 28\n-78 -41\n-54 -92\n-8 -99\n87 -94\n98 23\n87 91\n5\n-57 -40\n-21 -67\n25 39\n-30 25\n39 -20\n16\n4 5\n-34 -8\n-63 53\n78 84\n19 -16\n64 9\n-13 7\n13 53\n-20 4\n2 -7\n3 18\n-12 10\n-69 -93\n2 9\n27 64\n-92 -100\n",
+          "expected": "Yes\nYes\nNo\nNo\nYes\nNo\nYes\nNo\nYes\nYes\nYes\nYes\nNo\nYes\nNo\nNo\n"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "abc252",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 252",
+  "problems": {
+    "A": {
+      "id": "abc252_a",
+      "contest_id": "abc252",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc252/tasks/abc252_a",
+      "title": "ASCII code\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "97\n",
+          "expected": "a\n"
+        },
+        {
+          "input": "122\n",
+          "expected": "z\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc252_b",
+      "contest_id": "abc252",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc252/tasks/abc252_b",
+      "title": "Takahashi's Failure\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 3\n6 8 10 7 10\n2 3 4\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "5 2\n100 100 100 1 1\n5 4\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "2 1\n100 1\n2\n",
+          "expected": "No\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc252_c",
+      "contest_id": "abc252",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc252/tasks/abc252_c",
+      "title": "Slot Strategy\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n1937458062\n8124690357\n2385760149\n",
+          "expected": "6\n"
+        },
+        {
+          "input": "5\n0123456789\n0123456789\n0123456789\n0123456789\n0123456789\n",
+          "expected": "40\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc252_d",
+      "contest_id": "abc252",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc252/tasks/abc252_d",
+      "title": "Distinct Trio\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n3 1 4 1\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "10\n99999 99998 99997 99996 99995 99994 99993 99992 99991 99990\n",
+          "expected": "120\n"
+        },
+        {
+          "input": "15\n3 1 4 1 5 9 2 6 5 3 5 8 9 7 9\n",
+          "expected": "355\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc252_e",
+      "contest_id": "abc252",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc252/tasks/abc252_e",
+      "title": "Road Reduction\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 3\n1 2 1\n2 3 2\n1 3 10\n",
+          "expected": "1 2\n"
+        },
+        {
+          "input": "4 6\n1 2 1\n1 3 1\n1 4 1\n2 3 1\n2 4 1\n3 4 1\n",
+          "expected": "3 1 2\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc252_h",
+      "contest_id": "abc252",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc252/tasks/abc252_h",
+      "title": "K-th beautiful Necklace\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 2 3\n2 4\n2 6\n1 2\n1 3\n",
+          "expected": "5\n"
+        },
+        {
+          "input": "3 1 2\n1 0\n1 0\n1 0\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "10 3 11\n1 414213562373095048\n1 732050807568877293\n2 236067977499789696\n2 449489742783178098\n2 645751311064590590\n2 828427124746190097\n3 162277660168379331\n3 316624790355399849\n3 464101615137754587\n3 605551275463989293\n",
+          "expected": "766842905529259824\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc252_f",
+      "contest_id": "abc252",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc252/tasks/abc252_f",
+      "title": "Bread\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 7\n1 2 1 2 1\n",
+          "expected": "16\n"
+        },
+        {
+          "input": "3 1000000000000000\n1000000000 1000000000 1000000000\n",
+          "expected": "1000005000000000\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc252_g",
+      "contest_id": "abc252",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc252/tasks/abc252_g",
+      "title": "Pre-Order\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n1 2 4 3\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "8\n1 2 3 5 6 7 8 4\n",
+          "expected": "202\n"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "abc212",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 212",
+  "problems": {
+    "A": {
+      "id": "abc212_a",
+      "contest_id": "abc212",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_a",
+      "title": "Alloy\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "50 50\n",
+          "expected": "Alloy\n"
+        },
+        {
+          "input": "100 0\n",
+          "expected": "Gold\n"
+        },
+        {
+          "input": "0 100\n",
+          "expected": "Silver\n"
+        },
+        {
+          "input": "100 2\n",
+          "expected": "Alloy\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc212_b",
+      "contest_id": "abc212",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_b",
+      "title": "Weak Password\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "7777\n",
+          "expected": "Weak\n"
+        },
+        {
+          "input": "0112\n",
+          "expected": "Strong\n"
+        },
+        {
+          "input": "9012\n",
+          "expected": "Weak\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc212_c",
+      "contest_id": "abc212",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_c",
+      "title": "Min Difference\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 2\n1 6\n4 9\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "1 1\n10\n10\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "6 8\n82 76 82 82 71 70\n17 39 67 2 45 35 22 24\n",
+          "expected": "3\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc212_d",
+      "contest_id": "abc212",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_d",
+      "title": "Querying Multiset \n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n1 3\n1 5\n3\n2 2\n3\n",
+          "expected": "3\n7\n"
+        },
+        {
+          "input": "6\n1 1000000000\n2 1000000000\n2 1000000000\n2 1000000000\n2 1000000000\n3\n",
+          "expected": "5000000000\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc212_e",
+      "contest_id": "abc212",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_e",
+      "title": "Safety Journey\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 1 4\n2 3\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "3 3 3\n1 2\n1 3\n2 3\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "5 3 100\n1 2\n4 5\n2 3\n",
+          "expected": "428417047\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc212_f",
+      "contest_id": "abc212",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_f",
+      "title": "Greedy Takahashi\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "3 2 3\n1 2 1 3\n2 3 3 5\n1 1 5\n2 2 3\n1 3 2\n",
+          "expected": "2 3\n2\n3\n"
+        },
+        {
+          "input": "8 10 10\n4 3 329982133 872113932\n6 8 101082040 756263297\n4 7 515073851 793074419\n8 7 899017043 941751547\n5 7 295510441 597348810\n7 2 688716395 890599546\n6 1 414221915 748470452\n6 4 810915860 904512496\n3 1 497469654 973509612\n4 1 307142272 872178157\n374358788 4 509276232\n243448834 6 585993193\n156350864 4 682491610\n131643541 8 836902943\n152874385 6 495945159\n382276121 1 481368090\n552433623 2 884584430\n580376205 2 639442239\n108790644 7 879874292\n883275610 1 994982498\n",
+          "expected": "4\n6 1\n4 1\n8\n6 1\n1\n2\n2\n7 2\n1\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc212_g",
+      "contest_id": "abc212",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_g",
+      "title": "Power Pair\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "11\n",
+          "expected": "64\n"
+        },
+        {
+          "input": "998244353\n",
+          "expected": "329133417\n"
+        }
+      ]
+    },
+    "H": {
+      "id": "abc212_h",
+      "contest_id": "abc212",
+      "label": "H",
+      "url": "https://atcoder.jp/contests/abc212/tasks/abc212_h",
+      "title": "Nim Counting\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 2\n1 2\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "100 3\n3 5 7\n",
+          "expected": "112184936\n"
+        }
+      ]
+    }
+  }
+}

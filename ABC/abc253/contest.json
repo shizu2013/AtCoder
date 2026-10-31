@@ -1,0 +1,171 @@
+{
+  "id": "abc253",
+  "contest_type": "ABC",
+  "title": "NOMURA Programming Contest 2022（AtCoder Beginner Contest 253）",
+  "problems": {
+    "A": {
+      "id": "abc253_a",
+      "contest_id": "abc253",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_a",
+      "title": "Median?\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 3 2\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "2 5 3\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "100 100 100\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc253_b",
+      "contest_id": "abc253",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_b",
+      "title": "Distance Between Tokens\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 3\n--o\no--\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "5 4\n-o--\n----\n----\n----\n-o--\n",
+          "expected": "4\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc253_c",
+      "contest_id": "abc253",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_c",
+      "title": "Max - Min Query\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "8\n1 3\n1 2\n3\n1 2\n1 7\n3\n2 2 3\n3\n",
+          "expected": "1\n5\n4\n"
+        },
+        {
+          "input": "4\n1 10000\n1 1000\n2 100 3\n1 10\n",
+          "expected": ""
+        }
+      ]
+    },
+    "D": {
+      "id": "abc253_d",
+      "contest_id": "abc253",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_d",
+      "title": "FizzBuzz Sum Hard\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "10 3 5\n",
+          "expected": "22\n"
+        },
+        {
+          "input": "1000000000 314 159\n",
+          "expected": "495273003954006262\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc253_e",
+      "contest_id": "abc253",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_e",
+      "title": "Distance Sequence\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 3 1\n",
+          "expected": "6\n"
+        },
+        {
+          "input": "3 3 2\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "100 1000 500\n",
+          "expected": "657064711\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc253_h",
+      "contest_id": "abc253",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_h",
+      "title": "We Love Forest\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2\n1 2\n2 3\n",
+          "expected": "1\n499122177\n"
+        },
+        {
+          "input": "4 5\n1 2\n1 2\n1 4\n2 3\n2 4\n",
+          "expected": "1\n758665709\n918384805\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc253_f",
+      "contest_id": "abc253",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_f",
+      "title": "Operations on a Matrix\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 3 9\n1 1 2 1\n3 2 2\n2 3 2\n3 3 3\n3 3 1\n1 2 3 3\n3 3 2\n3 2 3\n3 1 2\n",
+          "expected": "1\n2\n2\n5\n3\n4\n"
+        },
+        {
+          "input": "1 1 10\n1 1 1 1000000000\n1 1 1 1000000000\n1 1 1 1000000000\n1 1 1 1000000000\n1 1 1 1000000000\n1 1 1 1000000000\n1 1 1 1000000000\n1 1 1 1000000000\n1 1 1 1000000000\n3 1 1\n",
+          "expected": "9000000000\n"
+        },
+        {
+          "input": "10 10 10\n1 1 8 5\n2 2 6\n3 2 1\n3 4 7\n1 5 9 7\n3 3 2\n3 2 8\n2 8 10\n3 8 8\n3 1 10\n",
+          "expected": "6\n5\n5\n13\n10\n0\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc253_g",
+      "contest_id": "abc253",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc253/tasks/abc253_g",
+      "title": "Swap Many Times\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 3 6\n",
+          "expected": "5 1 2 3 4\n"
+        },
+        {
+          "input": "10 12 36\n",
+          "expected": "1 10 9 8 7 4 3 2 5 6\n"
+        }
+      ]
+    }
+  }
+}

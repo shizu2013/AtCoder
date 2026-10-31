@@ -1,0 +1,175 @@
+{
+  "id": "abc255",
+  "contest_type": "ABC",
+  "title": "Aising Programming Contest 2022（AtCoder Beginner Contest 255）",
+  "problems": {
+    "A": {
+      "id": "abc255_a",
+      "contest_id": "abc255",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc255/tasks/abc255_a",
+      "title": "You should output ARC, though this is ABC.\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "1 2\n1 0\n0 1\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "2 2\n1 2\n3 4\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "2 1\n90 80\n70 60\n",
+          "expected": "70\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc255_b",
+      "contest_id": "abc255",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc255/tasks/abc255_b",
+      "title": "Light It Up\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 2\n2 3\n0 0\n0 1\n1 2\n2 0\n",
+          "expected": "2.23606797749978969\n"
+        },
+        {
+          "input": "2 1\n2\n-100000 -100000\n100000 100000\n",
+          "expected": "282842.712474619009\n"
+        },
+        {
+          "input": "8 3\n2 6 8\n-17683 17993\n93038 47074\n58079 -57520\n-41515 -89802\n-72739 68805\n24324 -73073\n71049 72103\n47863 19268\n",
+          "expected": "130379.280458974768\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc255_c",
+      "contest_id": "abc255",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc255/tasks/abc255_c",
+      "title": "±1 Operation 1 \n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6 2 3 3\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "0 0 0 1\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "998244353 -10 -20 30\n",
+          "expected": "998244363\n"
+        },
+        {
+          "input": "-555555555555555555 -1000000000000000000 1000000 1000000000000\n",
+          "expected": "444445\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc255_d",
+      "contest_id": "abc255",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc255/tasks/abc255_d",
+      "title": "±1 Operation 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 3\n6 11 2 5 5\n5\n20\n0\n",
+          "expected": "10\n71\n29\n"
+        },
+        {
+          "input": "10 5\n1000000000 314159265 271828182 141421356 161803398 0 777777777 255255255 536870912 998244353\n555555555\n321654987\n1000000000\n789456123\n0\n",
+          "expected": "3316905982\n2811735560\n5542639502\n4275864946\n4457360498\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc255_e",
+      "contest_id": "abc255",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc255/tasks/abc255_e",
+      "title": "Lucky Numbers\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "9 2\n2 3 3 4 -4 -7 -4 -1\n-1 5\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "20 10\n-183260318 206417795 409343217 238245886 138964265 -415224774 -499400499 -313180261 283784093 498751662 668946791 965735441 382033304 177367159 31017484 27914238 757966050 878978971 73210901\n-470019195 -379631053 -287722161 -231146414 -84796739 328710269 355719851 416979387 431167199 498905398\n",
+          "expected": "8\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc255_h",
+      "contest_id": "abc255",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc255/tasks/abc255_h",
+      "title": "Range Harvest Query\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 8000,
+      "sample_cases": [
+        {
+          "input": "5 3\n2 2 3\n3 3 4\n5 1 5\n",
+          "expected": "10\n15\n50\n"
+        },
+        {
+          "input": "711741968710511029 1\n82803157126515475 516874290286751784 588060532191410838\n",
+          "expected": "603657470\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc255_f",
+      "contest_id": "abc255",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc255/tasks/abc255_f",
+      "title": "Pre-order and In-order\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6\n1 3 5 6 4 2\n3 5 1 4 6 2\n",
+          "expected": "3 6\n0 0\n0 5\n0 0\n0 0\n4 2\n"
+        },
+        {
+          "input": "2\n2 1\n1 2\n",
+          "expected": "-1\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc255_g",
+      "contest_id": "abc255",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc255/tasks/abc255_g",
+      "title": "Constrained Nim\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "3 4\n1 2 4\n2 1\n3 3\n3 1\n1 1\n",
+          "expected": "Takahashi\n"
+        },
+        {
+          "input": "1 5\n5\n5 1\n5 2\n5 3\n5 4\n5 5\n",
+          "expected": "Aoki\n"
+        }
+      ]
+    }
+  }
+}

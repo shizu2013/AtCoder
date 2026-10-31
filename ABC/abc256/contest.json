@@ -1,0 +1,171 @@
+{
+  "id": "abc256",
+  "contest_type": "ABC",
+  "title": "Tokio Marine & Nichido Fire Insurance Programming Contest 2022（AtCoder Beginner Contest 256)",
+  "problems": {
+    "A": {
+      "id": "abc256_a",
+      "contest_id": "abc256",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc256/tasks/abc256_a",
+      "title": "2^N\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n",
+          "expected": "8\n"
+        },
+        {
+          "input": "30\n",
+          "expected": "1073741824\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc256_b",
+      "contest_id": "abc256",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc256/tasks/abc256_b",
+      "title": "Batters\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n1 1 3 2\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "3\n1 1 1\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "10\n2 2 4 1 1 1 4 2 2 1\n",
+          "expected": "8\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc256_c",
+      "contest_id": "abc256",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc256/tasks/abc256_c",
+      "title": "Filling 3x3 array\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 4 6 3 3 7\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "3 4 5 6 7 8\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "5 13 10 6 13 9\n",
+          "expected": "120\n"
+        },
+        {
+          "input": "20 25 30 22 29 24\n",
+          "expected": "30613\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc256_d",
+      "contest_id": "abc256",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc256/tasks/abc256_d",
+      "title": "Union of Interval\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n10 20\n20 30\n40 50\n",
+          "expected": "10 30\n40 50\n"
+        },
+        {
+          "input": "3\n10 40\n30 60\n20 50\n",
+          "expected": "10 60\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc256_e",
+      "contest_id": "abc256",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc256/tasks/abc256_e",
+      "title": "Takahashi's Anguish\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n2 3 2\n1 10 100\n",
+          "expected": "10\n"
+        },
+        {
+          "input": "8\n7 3 5 5 8 4 1 2\n36 49 73 38 30 85 27 45\n",
+          "expected": "57\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc256_h",
+      "contest_id": "abc256",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc256/tasks/abc256_h",
+      "title": "I like Query Problem\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 8000,
+      "sample_cases": [
+        {
+          "input": "3 5\n2 5 6\n3 1 3\n1 2 3 2\n3 1 2\n2 1 2 3\n3 1 3\n",
+          "expected": "13\n4\n9\n"
+        },
+        {
+          "input": "6 11\n10 3 5 20 6 7\n3 1 6\n1 2 4 3\n3 1 3\n2 1 4 10\n3 3 6\n1 3 6 2\n2 1 4 5\n3 1 6\n2 1 3 100\n1 2 5 6\n3 1 4\n",
+          "expected": "51\n12\n33\n26\n132\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc256_f",
+      "contest_id": "abc256",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc256/tasks/abc256_f",
+      "title": "Cumulative Cumulative Cumulative Sum\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 3\n1 2 3\n2 3\n1 2 0\n2 3\n",
+          "expected": "15\n9\n"
+        },
+        {
+          "input": "2 1\n998244353 998244353\n2 1\n",
+          "expected": "0\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc256_g",
+      "contest_id": "abc256",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc256/tasks/abc256_g",
+      "title": "Black and White Stones\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2\n",
+          "expected": "10\n"
+        },
+        {
+          "input": "299792458 3141\n",
+          "expected": "138897974\n"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "id": "abc250",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 250",
+  "problems": {
+    "A": {
+      "id": "abc250_a",
+      "contest_id": "abc250",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_a",
+      "title": "Adjacent Squares\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 4\n2 2\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "3 4\n1 3\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "3 4\n3 4\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "1 10\n1 5\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "8 1\n8 1\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "1 1\n1 1\n",
+          "expected": "0\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc250_b",
+      "contest_id": "abc250",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_b",
+      "title": "Enlarged Checker Board\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 3 2\n",
+          "expected": "..##..##\n..##..##\n..##..##\n##..##..\n##..##..\n##..##..\n..##..##\n..##..##\n..##..##\n##..##..\n##..##..\n##..##..\n"
+        },
+        {
+          "input": "5 1 5\n",
+          "expected": ".....#####.....#####.....\n#####.....#####.....#####\n.....#####.....#####.....\n#####.....#####.....#####\n.....#####.....#####.....\n"
+        },
+        {
+          "input": "4 4 1\n",
+          "expected": ".#.#\n.#.#\n.#.#\n.#.#\n#.#.\n#.#.\n#.#.\n#.#.\n.#.#\n.#.#\n.#.#\n.#.#\n#.#.\n#.#.\n#.#.\n#.#.\n"
+        },
+        {
+          "input": "1 4 4\n",
+          "expected": "....\n....\n....\n....\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc250_c",
+      "contest_id": "abc250",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_c",
+      "title": "Adjacent Swaps\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 5\n1\n2\n3\n4\n5\n",
+          "expected": "1 2 3 5 4\n"
+        },
+        {
+          "input": "7 7\n7\n7\n7\n7\n7\n7\n7\n",
+          "expected": "1 2 3 4 5 7 6\n"
+        },
+        {
+          "input": "10 6\n1\n5\n2\n9\n6\n6\n",
+          "expected": "1 2 3 4 5 7 6 8 10 9\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc250_d",
+      "contest_id": "abc250",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_d",
+      "title": "250-like Number\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "250\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "1\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "123456789012345\n",
+          "expected": "226863\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc250_e",
+      "contest_id": "abc250",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_e",
+      "title": "Prefix Equality\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "5\n1 2 3 4 5\n1 2 2 4 3\n7\n1 1\n2 2\n2 3\n3 3\n4 4\n4 5\n5 5\n",
+          "expected": "Yes\nYes\nYes\nNo\nNo\nYes\nNo\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc250_h",
+      "contest_id": "abc250",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_h",
+      "title": "Trespassing Takahashi\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 7000,
+      "sample_cases": [
+        {
+          "input": "6 6 3\n1 4 1\n4 6 4\n2 5 2\n3 5 3\n5 6 5\n1 2 15\n3\n2 3 4\n2 3 5\n1 3 12\n",
+          "expected": "No\nYes\nYes\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc250_f",
+      "contest_id": "abc250",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_f",
+      "title": "One Fourth\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n3 0\n2 3\n-1 3\n-3 1\n-1 -1\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "4\n400000000 400000000\n-400000000 400000000\n-400000000 -400000000\n400000000 -400000000\n",
+          "expected": "1280000000000000000\n"
+        },
+        {
+          "input": "6\n-816 222\n-801 -757\n-165 -411\n733 131\n835 711\n-374 979\n",
+          "expected": "157889\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc250_g",
+      "contest_id": "abc250",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc250/tasks/abc250_g",
+      "title": "Stonks\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "8\n2 5 4 3 7 1 8 6\n",
+          "expected": "16\n"
+        },
+        {
+          "input": "5\n10000 1000 100 10 1\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "15\n300 1 4000 1 50000 900000000 20 600000 50000 300 50000 80000000 900000000 7000000 900000000\n",
+          "expected": "2787595378\n"
+        }
+      ]
+    }
+  }
+}

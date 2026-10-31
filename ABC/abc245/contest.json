@@ -1,0 +1,179 @@
+{
+  "id": "abc245",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 245",
+  "problems": {
+    "A": {
+      "id": "abc245_a",
+      "contest_id": "abc245",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc245/tasks/abc245_a",
+      "title": "Good morning\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "7 0 6 30\n",
+          "expected": "Aoki\n"
+        },
+        {
+          "input": "7 30 7 30\n",
+          "expected": "Takahashi\n"
+        },
+        {
+          "input": "0 0 23 59\n",
+          "expected": "Takahashi\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc245_b",
+      "contest_id": "abc245",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc245/tasks/abc245_b",
+      "title": "Mex\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "8\n0 3 2 6 2 1 0 0\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "3\n2000 2000 2000\n",
+          "expected": "0\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc245_c",
+      "contest_id": "abc245",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc245/tasks/abc245_c",
+      "title": "Choose Elements\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 4\n9 8 3 7 2\n1 6 2 9 5\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "4 90\n1 1 1 100\n1 2 3 100\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "4 1000000000\n1 1 1000000000 1000000000\n1 1000000000 1 1000000000\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc245_d",
+      "contest_id": "abc245",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc245/tasks/abc245_d",
+      "title": "Polynomial division\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "1 2\n2 1\n12 14 8 2\n",
+          "expected": "6 4 2\n"
+        },
+        {
+          "input": "1 1\n100 1\n10000 0 -1\n",
+          "expected": "100 -1\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc245_e",
+      "contest_id": "abc245",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc245/tasks/abc245_e",
+      "title": "Wrapping Chocolate\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "2 3\n2 4\n3 2\n8 1 5\n2 10 5\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "2 2\n1 1\n2 2\n100 1\n100 1\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "1 1\n10\n100\n100\n10\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "1 1\n10\n100\n10\n100\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc245_h",
+      "contest_id": "abc245",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc245/tasks/abc245_h",
+      "title": "Product Modulo 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 3 6\n",
+          "expected": "5\n"
+        },
+        {
+          "input": "10 0 2\n",
+          "expected": "1023\n"
+        },
+        {
+          "input": "1000000000 20220326 1000000000000\n",
+          "expected": "561382653\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc245_f",
+      "contest_id": "abc245",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc245/tasks/abc245_f",
+      "title": "Endless Walk\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 5\n1 2\n2 3\n3 4\n4 2\n4 5\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "3 2\n1 2\n2 1\n",
+          "expected": "2\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc245_g",
+      "contest_id": "abc245",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc245/tasks/abc245_g",
+      "title": "Foreign Friends\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 4 2 2\n1 1 2 2\n2 3\n1 2 15\n2 3 30\n3 4 40\n1 4 10\n",
+          "expected": "45 30 30 25\n"
+        },
+        {
+          "input": "3 1 3 1\n1 2 3\n1\n1 2 1000000000\n",
+          "expected": "-1 1000000000 -1\n"
+        }
+      ]
+    }
+  }
+}

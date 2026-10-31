@@ -1,0 +1,175 @@
+{
+  "id": "abc216",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 216",
+  "problems": {
+    "A": {
+      "id": "abc216_a",
+      "contest_id": "abc216",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc216/tasks/abc216_a",
+      "title": "Signed Difficulty\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "15.8\n",
+          "expected": "15+\n"
+        },
+        {
+          "input": "1.0\n",
+          "expected": "1-\n"
+        },
+        {
+          "input": "12.5\n",
+          "expected": "12\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc216_b",
+      "contest_id": "abc216",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc216/tasks/abc216_b",
+      "title": "Same Name\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\ntanaka taro\nsato hanako\ntanaka taro\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "3\nsaito ichiro\nsaito jiro\nsaito saburo\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "4\nsypdgidop bkseq\nbajsqz hh\nozjekw mcybmtt\nqfeysvw dbo\n",
+          "expected": "No\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc216_c",
+      "contest_id": "abc216",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc216/tasks/abc216_c",
+      "title": "Many Balls\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n",
+          "expected": "AABA\n"
+        },
+        {
+          "input": "14\n",
+          "expected": "BBABBAAAB\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc216_d",
+      "contest_id": "abc216",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc216/tasks/abc216_d",
+      "title": "Pair of Balls\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 2\n2\n1 2\n2\n1 2\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "2 2\n2\n1 2\n2\n2 1\n",
+          "expected": "No\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc216_e",
+      "contest_id": "abc216",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc216/tasks/abc216_e",
+      "title": "Amusement Park\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 5\n100 50 102\n",
+          "expected": "502\n"
+        },
+        {
+          "input": "2 2021\n2 3\n",
+          "expected": "9\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc216_f",
+      "contest_id": "abc216",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc216/tasks/abc216_f",
+      "title": "Max Sum Counting\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2\n3 1\n1 2\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "2\n1 1\n2 2\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "20\n1937 3980 2689 1208 3640 1979 581 2271 4229 3948 3708 1522 4161 4661 3797 96 3388 3395 2920 2247\n4485 2580 174 1156 3770 3396 3558 3500 3494 479 269 3383 1230 1711 3545 3919 134 475 3796 1017\n",
+          "expected": "476\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc216_g",
+      "contest_id": "abc216",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc216/tasks/abc216_g",
+      "title": "01Sequence\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "6 3\n1 4 3\n2 2 1\n4 6 2\n",
+          "expected": "0 1 1 1 0 1 \n"
+        },
+        {
+          "input": "8 2\n2 6 1\n3 5 3\n",
+          "expected": "0 0 1 1 1 0 0 0 \n"
+        }
+      ]
+    },
+    "H": {
+      "id": "abc216_h",
+      "contest_id": "abc216",
+      "label": "H",
+      "url": "https://atcoder.jp/contests/abc216/tasks/abc216_h",
+      "title": "Random Robots\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 2\n1 2\n",
+          "expected": "374341633\n"
+        },
+        {
+          "input": "2 2\n10 100\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "10 832\n73 160 221 340 447 574 720 742 782 970\n",
+          "expected": "553220346\n"
+        }
+      ]
+    }
+  }
+}

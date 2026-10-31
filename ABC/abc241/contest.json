@@ -1,0 +1,179 @@
+{
+  "id": "abc241",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 241（Sponsored by Panasonic）",
+  "problems": {
+    "A": {
+      "id": "abc241_a",
+      "contest_id": "abc241",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_a",
+      "title": "Digit Machine\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "9 0 1 2 3 4 5 6 7 8\n",
+          "expected": "7\n"
+        },
+        {
+          "input": "4 8 8 8 0 8 8 8 8 8\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "0 0 0 0 0 0 0 0 0 0\n",
+          "expected": "0\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc241_b",
+      "contest_id": "abc241",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_b",
+      "title": "Pasta\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2\n1 1 3\n3 1\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "1 1\n1000000000\n1\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "5 2\n1 2 3 4 5\n5 5\n",
+          "expected": "No\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc241_c",
+      "contest_id": "abc241",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_c",
+      "title": "Connect 6\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "8\n........\n........\n.#.##.#.\n........\n........\n........\n........\n........\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "6\n######\n######\n######\n######\n######\n######\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "10\n..........\n#..##.....\n..........\n..........\n....#.....\n....#.....\n.#...#..#.\n..........\n..........\n..........\n",
+          "expected": "No\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc241_d",
+      "contest_id": "abc241",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_d",
+      "title": "Sequence Query\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "11\n1 20\n1 10\n1 30\n1 20\n3 15 1\n3 15 2\n3 15 3\n3 15 4\n2 100 5\n1 1\n2 100 5\n",
+          "expected": "20\n20\n30\n-1\n-1\n1\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc241_e",
+      "contest_id": "abc241",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_e",
+      "title": "Putting Candies\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 3\n2 1 6 3 1\n",
+          "expected": "11\n"
+        },
+        {
+          "input": "10 1000000000000\n260522 914575 436426 979445 648772 690081 933447 190629 703497 47202\n",
+          "expected": "826617499998784056\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc241_h",
+      "contest_id": "abc241",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_h",
+      "title": "Card Deck Score\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "3 3\n3 1\n5 2\n6 3\n",
+          "expected": "819\n"
+        },
+        {
+          "input": "3 2\n1 1\n5 2\n25 1\n",
+          "expected": "180\n"
+        },
+        {
+          "input": "10 232657150901347497\n139547946 28316250877914575\n682142538 78223540024979445\n110643588 74859962623690081\n173455495 60713016476190629\n271056265 85335723211047202\n801329567 48049062628894325\n864844366 54979173822804784\n338794337 69587449430302156\n737638908 15812229161735902\n462149872 49993004923078537\n",
+          "expected": "39761306\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc241_f",
+      "contest_id": "abc241",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_f",
+      "title": "Skate\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "7 8 7\n3 4\n5 6\n1 4\n2 1\n2 8\n4 5\n5 7\n6 2\n6 6\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "4 6 2\n3 2\n3 5\n4 5\n2 5\n",
+          "expected": "-1\n"
+        },
+        {
+          "input": "1 10 1\n1 5\n1 1\n1 7\n",
+          "expected": "-1\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc241_g",
+      "contest_id": "abc241",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc241/tasks/abc241_g",
+      "title": "Round Robin\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 2\n2 1\n2 3\n",
+          "expected": "2 4\n"
+        },
+        {
+          "input": "3 3\n1 2\n2 3\n3 1\n",
+          "expected": ""
+        },
+        {
+          "input": "7 9\n6 5\n1 2\n3 4\n5 3\n6 2\n1 5\n3 2\n6 4\n1 4\n",
+          "expected": "1 3 6 7\n"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "id": "abc237",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 237",
+  "problems": {
+    "A": {
+      "id": "abc237_a",
+      "contest_id": "abc237",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc237/tasks/abc237_a",
+      "title": "Not Overflow\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "10\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "-9876543210\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "483597848400000\n",
+          "expected": "No\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc237_b",
+      "contest_id": "abc237",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc237/tasks/abc237_b",
+      "title": "Matrix Transposition\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 3\n1 2 3\n4 5 6\n7 8 9\n10 11 12\n",
+          "expected": "1 4 7 10\n2 5 8 11\n3 6 9 12\n"
+        },
+        {
+          "input": "2 2\n1000000000 1000000000\n1000000000 1000000000\n",
+          "expected": "1000000000 1000000000\n1000000000 1000000000\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc237_c",
+      "contest_id": "abc237",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc237/tasks/abc237_c",
+      "title": "kasaka\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "kasaka\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "atcoder\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "php\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc237_d",
+      "contest_id": "abc237",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc237/tasks/abc237_d",
+      "title": "LR insertion\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\nLRRLR\n",
+          "expected": "1 2 4 5 3 0\n"
+        },
+        {
+          "input": "7\nLLLLLLL\n",
+          "expected": "7 6 5 4 3 2 1 0\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc237_e",
+      "contest_id": "abc237",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc237/tasks/abc237_e",
+      "title": "Skiing\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 4\n10 8 12 5\n1 2\n1 3\n2 3\n3 4\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "2 1\n0 10\n1 2\n",
+          "expected": "0\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc237_h",
+      "contest_id": "abc237",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc237/tasks/abc237_h",
+      "title": "Hakata\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "ababb\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "xyz\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "xxxxxxxxxx\n",
+          "expected": "1\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc237_f",
+      "contest_id": "abc237",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc237/tasks/abc237_f",
+      "title": "|LIS| = 3\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 5\n",
+          "expected": "135\n"
+        },
+        {
+          "input": "3 4\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "111 3\n",
+          "expected": "144980434\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc237_g",
+      "contest_id": "abc237",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc237/tasks/abc237_g",
+      "title": "Range Sort Query\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 8000,
+      "sample_cases": [
+        {
+          "input": "5 2 1\n1 4 5 2 3\n1 3 5\n2 1 3\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "7 3 3\n7 5 3 1 2 4 6\n1 1 7\n2 3 6\n2 5 7\n",
+          "expected": "7\n"
+        }
+      ]
+    }
+  }
+}

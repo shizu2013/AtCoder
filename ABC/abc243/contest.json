@@ -1,0 +1,191 @@
+{
+  "id": "abc243",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 243",
+  "problems": {
+    "A": {
+      "id": "abc243_a",
+      "contest_id": "abc243",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc243/tasks/abc243_a",
+      "title": "Shampoo\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "25 10 11 12\n",
+          "expected": "T\n"
+        },
+        {
+          "input": "30 10 10 10\n",
+          "expected": "F\n"
+        },
+        {
+          "input": "100000 1 1 1\n",
+          "expected": "M\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc243_b",
+      "contest_id": "abc243",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc243/tasks/abc243_b",
+      "title": "Hit and Blow\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n1 3 5 2\n2 3 1 4\n",
+          "expected": "1\n2\n"
+        },
+        {
+          "input": "3\n1 2 3\n4 5 6\n",
+          "expected": "0\n0\n"
+        },
+        {
+          "input": "7\n4 8 1 7 9 5 6\n3 5 1 7 8 2 6\n",
+          "expected": "3\n2\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc243_c",
+      "contest_id": "abc243",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc243/tasks/abc243_c",
+      "title": "Collision 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n2 3\n1 1\n4 1\nRRL\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "2\n1 1\n2 1\nRR\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "10\n1 3\n1 4\n0 0\n0 2\n0 4\n3 1\n2 4\n4 2\n4 4\n3 3\nRLRRRLRLRR\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc243_d",
+      "contest_id": "abc243",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc243/tasks/abc243_d",
+      "title": "Moves on Binary Tree\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2\nURL\n",
+          "expected": "6\n"
+        },
+        {
+          "input": "4 500000000000000000\nRRUU\n",
+          "expected": "500000000000000000\n"
+        },
+        {
+          "input": "30 123456789\nLRULURLURLULULRURRLRULRRRUURRU\n",
+          "expected": "126419752371\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc243_e",
+      "contest_id": "abc243",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc243/tasks/abc243_e",
+      "title": "Edge Deletion\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 3\n1 2 2\n2 3 3\n1 3 6\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "5 4\n1 3 3\n2 3 9\n3 5 3\n4 5 3\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "5 10\n1 2 71\n1 3 9\n1 4 82\n1 5 64\n2 3 22\n2 4 99\n2 5 1\n3 4 24\n3 5 18\n4 5 10\n",
+          "expected": "5\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc243_h",
+      "contest_id": "abc243",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc243/tasks/abc243_h",
+      "title": "Builder Takahashi (Enhanced version)\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "4 3\nS..\nO..\n..O\n..G\n",
+          "expected": "Yes\n3 6\n"
+        },
+        {
+          "input": "3 2\n.G\n.O\n.S\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "2 2\nS.\n.G\n",
+          "expected": "Yes\n2 1\n"
+        },
+        {
+          "input": "10 10\nOOO...OOO.\n.....OOO.O\nOOO.OO.OOO\nOOO..O..S.\n....O.O.O.\n.OO.O.OOOO\n..OOOG.O.O\n.O.O..OOOO\n.O.O.OO...\n...O..O..O\n",
+          "expected": "Yes\n10 12\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc243_f",
+      "contest_id": "abc243",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc243/tasks/abc243_f",
+      "title": "Lottery\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 1 2\n2\n1\n",
+          "expected": "221832079\n"
+        },
+        {
+          "input": "3 3 2\n1\n1\n1\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "3 3 10\n499122176\n499122175\n1\n",
+          "expected": "335346748\n"
+        },
+        {
+          "input": "10 8 15\n1\n1\n1\n1\n1\n1\n1\n1\n1\n1\n",
+          "expected": "755239064\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc243_g",
+      "contest_id": "abc243",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc243/tasks/abc243_g",
+      "title": "Sqrt\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n16\n1\n123456789012\n1000000000000000000\n",
+          "expected": "5\n1\n4555793983\n23561347048791096\n"
+        }
+      ]
+    }
+  }
+}

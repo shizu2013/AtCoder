@@ -1,0 +1,195 @@
+{
+  "id": "abc247",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 247",
+  "problems": {
+    "A": {
+      "id": "abc247_a",
+      "contest_id": "abc247",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_a",
+      "title": "Move Right\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "1011\n",
+          "expected": "0101\n"
+        },
+        {
+          "input": "0000\n",
+          "expected": "0000\n"
+        },
+        {
+          "input": "1111\n",
+          "expected": "0111\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc247_b",
+      "contest_id": "abc247",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_b",
+      "title": "Unique Nicknames\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\ntanaka taro\ntanaka jiro\nsuzuki hanako\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "3\naaa bbb\nxxx aaa\nbbb yyy\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "2\ntanaka taro\ntanaka taro\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "3\ntakahashi chokudai\naoki kensho\nsnu ke\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc247_c",
+      "contest_id": "abc247",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_c",
+      "title": "1 2 1 3 1 2 1\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2\n",
+          "expected": "1 2 1\n"
+        },
+        {
+          "input": "1\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "4\n",
+          "expected": "1 2 1 3 1 2 1 4 1 2 1 3 1 2 1\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc247_d",
+      "contest_id": "abc247",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_d",
+      "title": "Cylinder\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n1 2 3\n2 2\n1 3 4\n2 3\n",
+          "expected": "4\n8\n"
+        },
+        {
+          "input": "2\n1 1000000000 1000000000\n2 1000000000\n",
+          "expected": "1000000000000000000\n"
+        },
+        {
+          "input": "5\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n1 1 1\n",
+          "expected": ""
+        }
+      ]
+    },
+    "E": {
+      "id": "abc247_e",
+      "contest_id": "abc247",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_e",
+      "title": "Max Min\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 3 1\n1 2 3 1\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "5 2 1\n1 3 2 4 1\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "5 1 1\n1 1 1 1 1\n",
+          "expected": "15\n"
+        },
+        {
+          "input": "10 8 1\n2 7 1 8 2 8 1 8 2 8\n",
+          "expected": "36\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc247_h",
+      "contest_id": "abc247",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_h",
+      "title": "Rearranging Problem\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "4 1\n1 1 2 1\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "3 3\n1 1 2\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "10 4\n2 7 1 8 2 8 1 8 2 8\n",
+          "expected": "132\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc247_f",
+      "contest_id": "abc247",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_f",
+      "title": "Cards\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n1 2 3\n2 1 3\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "5\n2 3 5 4 1\n4 2 1 3 5\n",
+          "expected": "12\n"
+        },
+        {
+          "input": "8\n1 2 3 4 5 6 7 8\n1 2 3 4 5 6 7 8\n",
+          "expected": "1\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc247_g",
+      "contest_id": "abc247",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc247/tasks/abc247_g",
+      "title": "Dream Team\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n1 1 100\n1 20 10\n2 1 1\n",
+          "expected": "2\n100\n11\n"
+        },
+        {
+          "input": "10\n1 4 142135623\n2 6 457513110\n3 1 622776601\n5 1 961524227\n2 2 360679774\n2 4 494897427\n3 7 416573867\n5 2 915026221\n1 7 320508075\n5 3 851648071\n",
+          "expected": "4\n961524227\n1537802822\n2032700249\n2353208324\n"
+        }
+      ]
+    }
+  }
+}

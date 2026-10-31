@@ -1,0 +1,183 @@
+{
+  "id": "abc217",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 217",
+  "problems": {
+    "A": {
+      "id": "abc217_a",
+      "contest_id": "abc217",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_a",
+      "title": "Lexicographic Order\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "abc atcoder\n",
+          "expected": "Yes\n"
+        },
+        {
+          "input": "arc agc\n",
+          "expected": "No\n"
+        },
+        {
+          "input": "a aa\n",
+          "expected": "Yes\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc217_b",
+      "contest_id": "abc217",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_b",
+      "title": "AtCoder Quiz\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "ARC\nAGC\nAHC\n",
+          "expected": "ABC\n"
+        },
+        {
+          "input": "AGC\nABC\nARC\n",
+          "expected": "AHC\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc217_c",
+      "contest_id": "abc217",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_c",
+      "title": "Inverse of Permutation\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n2 3 1\n",
+          "expected": "3 1 2\n"
+        },
+        {
+          "input": "3\n1 2 3\n",
+          "expected": "1 2 3\n"
+        },
+        {
+          "input": "5\n5 3 2 4 1\n",
+          "expected": "5 3 2 4 1\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc217_d",
+      "contest_id": "abc217",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_d",
+      "title": "Cutting Woods\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 3\n2 2\n1 3\n2 2\n",
+          "expected": "5\n3\n"
+        },
+        {
+          "input": "5 3\n1 2\n1 4\n2 3\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "100 10\n1 31\n2 41\n1 59\n2 26\n1 53\n2 58\n1 97\n2 93\n1 23\n2 84\n",
+          "expected": "69\n31\n6\n38\n38\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc217_e",
+      "contest_id": "abc217",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_e",
+      "title": "Sorting Queries\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "8\n1 4\n1 3\n1 2\n1 1\n3\n2\n1 0\n2\n",
+          "expected": "1\n2\n"
+        },
+        {
+          "input": "9\n1 5\n1 5\n1 3\n2\n3\n2\n1 6\n3\n2\n",
+          "expected": "5\n3\n5\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc217_f",
+      "contest_id": "abc217",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_f",
+      "title": "Make Pair\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "2 3\n1 2\n1 4\n2 3\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "2 2\n1 2\n3 4\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "2 2\n1 3\n2 4\n",
+          "expected": "0\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc217_g",
+      "contest_id": "abc217",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_g",
+      "title": "Groups\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4 2\n",
+          "expected": "0\n2\n4\n1\n"
+        },
+        {
+          "input": "6 6\n",
+          "expected": "1\n31\n90\n65\n15\n1\n"
+        },
+        {
+          "input": "20 5\n",
+          "expected": "0\n0\n0\n331776\n207028224\n204931064\n814022582\n544352515\n755619435\n401403040\n323173195\n538468102\n309259764\n722947327\n162115584\n10228144\n423360\n10960\n160\n1\n"
+        }
+      ]
+    },
+    "H": {
+      "id": "abc217_h",
+      "contest_id": "abc217",
+      "label": "H",
+      "url": "https://atcoder.jp/contests/abc217/tasks/abc217_h",
+      "title": "Snuketoon\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n1 0 3\n3 1 0\n4 0 6\n",
+          "expected": "7\n"
+        },
+        {
+          "input": "3\n1 0 1\n6 1 1\n8 0 -1\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "5\n1 0 1000000000\n2 1 -1000000000\n3 0 1000000000\n4 1 -1000000000\n5 0 1000000000\n",
+          "expected": "4999999997\n"
+        }
+      ]
+    }
+  }
+}

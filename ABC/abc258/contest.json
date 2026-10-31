@@ -1,0 +1,167 @@
+{
+  "id": "abc258",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 258",
+  "problems": {
+    "A": {
+      "id": "abc258_a",
+      "contest_id": "abc258",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc258/tasks/abc258_a",
+      "title": "When?\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "63\n",
+          "expected": "22:03\n"
+        },
+        {
+          "input": "45\n",
+          "expected": "21:45\n"
+        },
+        {
+          "input": "100\n",
+          "expected": "22:40\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc258_b",
+      "contest_id": "abc258",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc258/tasks/abc258_b",
+      "title": "Number Box\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n1161\n1119\n7111\n1811\n",
+          "expected": "9786\n"
+        },
+        {
+          "input": "10\n1111111111\n1111111111\n1111111111\n1111111111\n1111111111\n1111111111\n1111111111\n1111111111\n1111111111\n1111111111\n",
+          "expected": "1111111111\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc258_c",
+      "contest_id": "abc258",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc258/tasks/abc258_c",
+      "title": "Rotation\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 3\nabc\n2 2\n1 1\n2 2\n",
+          "expected": "b\na\n"
+        },
+        {
+          "input": "10 8\ndsuccxulnl\n2 4\n2 7\n1 2\n2 7\n1 1\n1 2\n1 3\n2 5\n",
+          "expected": "c\nu\nc\nu\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc258_d",
+      "contest_id": "abc258",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc258/tasks/abc258_d",
+      "title": "Trophy\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 4\n3 4\n2 3\n4 2\n",
+          "expected": "18\n"
+        },
+        {
+          "input": "10 1000000000\n3 3\n1 6\n4 7\n1 8\n5 7\n9 9\n2 4\n6 4\n5 1\n3 1\n",
+          "expected": "1000000076\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc258_e",
+      "contest_id": "abc258",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc258/tasks/abc258_e",
+      "title": "Packing Potatoes\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2 5\n3 4 1\n1\n2\n",
+          "expected": "2\n3\n"
+        },
+        {
+          "input": "10 5 20\n5 8 5 9 8 7 4 4 8 2\n1\n1000\n1000000\n1000000000\n1000000000000\n",
+          "expected": "4\n5\n5\n5\n5\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc258_h",
+      "contest_id": "abc258",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc258/tasks/abc258_h",
+      "title": "Odd Steps\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "3 7\n2 4 5\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "5 60\n10 20 30 40 50\n",
+          "expected": "37634180\n"
+        },
+        {
+          "input": "10 1000000000000000000\n1 2 4 8 16 32 64 128 256 512\n",
+          "expected": "75326268\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc258_f",
+      "contest_id": "abc258",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc258/tasks/abc258_f",
+      "title": "Main Street\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "4\n3 4 2 2 4 4\n5 6 2 3 2 3\n1 1000000000 0 0 1000000000 1000000000\n1000000000 1000000000 500000000 500000000 1000000000 1000000000\n",
+          "expected": "10\n0\n2000000000\n500000000500000000\n"
+        },
+        {
+          "input": "10\n928184439 674654465 203937094 186855052 851783856 805293696\n55480262 448852233 823161539 786348805 550018803 322680316\n891870741 235679524 32164572 497841190 620600021 96487871\n321502816 428964257 499656016 521484999 717623189 824784374\n144040837 680268887 76238777 371138006 350230937 78690135\n768922620 799628518 403830696 60449731 218880692 88319939\n482031503 121412614 472330444 284479575 949635609 427232765\n389524418 132987043 656496997 678732442 23028233 488463974\n857778764 629964237 714551548 739330018 579247790 874251485\n461612428 535402609 555160129 833592114 44418273 287363785\n",
+          "expected": "177606591118701316\n6205925075792263\n30320747646118343\n84136273267803188\n83764071874751489\n118960470930399064\n2929499649126153\n16403238161749820\n84995699148879437\n71771264361119335\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc258_g",
+      "contest_id": "abc258",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc258/tasks/abc258_g",
+      "title": "Triangle\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "4\n0011\n0011\n1101\n1110\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "10\n0000000000\n0000000000\n0000000000\n0000000000\n0000000000\n0000000000\n0000000000\n0000000000\n0000000000\n0000000000\n",
+          "expected": "0\n"
+        }
+      ]
+    }
+  }
+}

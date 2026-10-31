@@ -1,0 +1,187 @@
+{
+  "id": "abc214",
+  "contest_type": "ABC",
+  "title": "AtCoder Beginner Contest 214",
+  "problems": {
+    "A": {
+      "id": "abc214_a",
+      "contest_id": "abc214",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc214/tasks/abc214_a",
+      "title": "New Generation ABC\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "214\n",
+          "expected": "8\n"
+        },
+        {
+          "input": "1\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "126\n",
+          "expected": "6\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc214_b",
+      "contest_id": "abc214",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc214/tasks/abc214_b",
+      "title": "How many?\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "1 0\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "2 5\n",
+          "expected": "10\n"
+        },
+        {
+          "input": "10 10\n",
+          "expected": "213\n"
+        },
+        {
+          "input": "30 100\n",
+          "expected": "2471\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc214_c",
+      "contest_id": "abc214",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc214/tasks/abc214_c",
+      "title": "Distribution\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n4 1 5\n3 10 100\n",
+          "expected": "3\n7\n8\n"
+        },
+        {
+          "input": "4\n100 100 100 100\n1 1 1 1\n",
+          "expected": "1\n1\n1\n1\n"
+        },
+        {
+          "input": "4\n1 2 3 4\n1 2 4 7\n",
+          "expected": "1\n2\n4\n7\n"
+        },
+        {
+          "input": "8\n84 87 78 16 94 36 87 93\n50 22 63 28 91 60 64 27\n",
+          "expected": "50\n22\n63\n28\n44\n60\n64\n27\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc214_d",
+      "contest_id": "abc214",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc214/tasks/abc214_d",
+      "title": "Sum of Maximum Weights\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3\n1 2 10\n2 3 20\n",
+          "expected": "50\n"
+        },
+        {
+          "input": "5\n1 2 1\n2 3 2\n4 2 5\n3 5 14\n",
+          "expected": "76\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc214_e",
+      "contest_id": "abc214",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc214/tasks/abc214_e",
+      "title": "Packing Under Range Regulations\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "2\n3\n1 2\n2 3\n3 3\n5\n1 2\n2 3\n3 3\n1 3\n999999999 1000000000\n",
+          "expected": "Yes\nNo\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc214_f",
+      "contest_id": "abc214",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc214/tasks/abc214_f",
+      "title": "Substrings\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "abc\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "aa\n",
+          "expected": "1\n"
+        },
+        {
+          "input": "acba\n",
+          "expected": "6\n"
+        },
+        {
+          "input": "chokudai\n",
+          "expected": "54\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc214_g",
+      "contest_id": "abc214",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc214/tasks/abc214_g",
+      "title": "Three Permutations\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "4\n1 2 3 4\n2 1 4 3\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "3\n1 2 3\n2 1 3\n",
+          "expected": "0\n"
+        },
+        {
+          "input": "20\n2 3 15 19 10 7 5 6 14 13 20 4 18 9 17 8 12 11 16 1\n8 12 4 13 19 3 10 16 11 9 1 2 17 6 5 18 7 14 20 15\n",
+          "expected": "803776944\n"
+        }
+      ]
+    },
+    "H": {
+      "id": "abc214_h",
+      "contest_id": "abc214",
+      "label": "H",
+      "url": "https://atcoder.jp/contests/abc214/tasks/abc214_h",
+      "title": "Collecting\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 4000,
+      "sample_cases": [
+        {
+          "input": "5 5 2\n1 2\n2 3\n3 2\n1 4\n1 5\n1 4 5 2 8\n",
+          "expected": "18\n"
+        },
+        {
+          "input": "3 1 10\n2 3\n1 100 100\n",
+          "expected": "1\n"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "AtCodercpp",
+  "submit_file": "main.cpp",
+  "language_id": 6017,
+  "exec_command": [
+    "./a.out"
+  ],
+  "compile_command": [
+    "g++",
+    "main.cpp",
+    "-o",
+    "a.out",
+    "-I/opt/homebrew/opt/boost/include",
+    "-I/opt/homebrew/Cellar/gcc/16.2.0/include/c++/16/aarch64-apple-darwin25",
+    "-I/opt/homebrew/Cellar/gcc/16.2.0/include/c++/16/backward"
+  ],
+  "pre_submit": null
+}

@@ -1,0 +1,167 @@
+{
+  "id": "abc257",
+  "contest_type": "ABC",
+  "title": "NS Solutions Corporation Programming Contest 2022（AtCoder Beginner Contest 257）",
+  "problems": {
+    "A": {
+      "id": "abc257_a",
+      "contest_id": "abc257",
+      "label": "A",
+      "url": "https://atcoder.jp/contests/abc257/tasks/abc257_a",
+      "title": "A to Z String 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "1 3\n",
+          "expected": "C\n"
+        },
+        {
+          "input": "2 12\n",
+          "expected": "F\n"
+        }
+      ]
+    },
+    "B": {
+      "id": "abc257_b",
+      "contest_id": "abc257",
+      "label": "B",
+      "url": "https://atcoder.jp/contests/abc257/tasks/abc257_b",
+      "title": "1D Pawn\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5 3 5\n1 3 4\n3 3 1 1 2\n",
+          "expected": "2 4 5\n"
+        },
+        {
+          "input": "2 2 2\n1 2\n1 2\n",
+          "expected": "1 2\n"
+        },
+        {
+          "input": "10 6 9\n1 3 5 7 8 9\n1 2 3 4 5 6 5 6 2\n",
+          "expected": "2 5 6 7 9 10\n"
+        }
+      ]
+    },
+    "C": {
+      "id": "abc257_c",
+      "contest_id": "abc257",
+      "label": "C",
+      "url": "https://atcoder.jp/contests/abc257/tasks/abc257_c",
+      "title": "Robot Takahashi \n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n10101\n60 45 30 40 80\n",
+          "expected": "4\n"
+        },
+        {
+          "input": "3\n000\n1 2 3\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "5\n10101\n60 50 50 50 60\n",
+          "expected": "4\n"
+        }
+      ]
+    },
+    "D": {
+      "id": "abc257_d",
+      "contest_id": "abc257",
+      "label": "D",
+      "url": "https://atcoder.jp/contests/abc257/tasks/abc257_d",
+      "title": "Jumping Takahashi 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 3000,
+      "sample_cases": [
+        {
+          "input": "4\n-10 0 1\n0 0 5\n10 0 1\n11 0 1\n",
+          "expected": "2\n"
+        },
+        {
+          "input": "7\n20 31 1\n13 4 3\n-10 -15 2\n34 26 5\n-2 39 4\n0 -50 1\n5 -20 2\n",
+          "expected": "18\n"
+        }
+      ]
+    },
+    "E": {
+      "id": "abc257_e",
+      "contest_id": "abc257",
+      "label": "E",
+      "url": "https://atcoder.jp/contests/abc257/tasks/abc257_e",
+      "title": "Addition and Multiplication 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "5\n5 4 3 3 2 5 3 5 3\n",
+          "expected": "95\n"
+        },
+        {
+          "input": "20\n1 1 1 1 1 1 1 1 1\n",
+          "expected": "99999999999999999999\n"
+        }
+      ]
+    },
+    "Ex": {
+      "id": "abc257_h",
+      "contest_id": "abc257",
+      "label": "Ex",
+      "url": "https://atcoder.jp/contests/abc257/tasks/abc257_h",
+      "title": "Dice Sum 2\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2\n1 2 3\n1 1 1 1 1 1\n2 2 2 2 2 2\n3 3 3 3 3 3\n",
+          "expected": "20\n"
+        },
+        {
+          "input": "10 5\n2 5 6 5 2 1 7 9 7 2\n5 5 2 4 7 6\n2 2 8 7 7 9\n8 1 9 6 10 8\n8 6 10 3 3 9\n1 10 5 8 1 10\n7 8 4 8 6 5\n1 10 2 5 1 7\n7 4 1 4 5 4\n5 10 1 5 1 2\n5 1 2 3 6 2\n",
+          "expected": "1014\n"
+        }
+      ]
+    },
+    "F": {
+      "id": "abc257_f",
+      "contest_id": "abc257",
+      "label": "F",
+      "url": "https://atcoder.jp/contests/abc257/tasks/abc257_f",
+      "title": "Teleporter Setting \n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "3 2\n0 2\n1 2\n",
+          "expected": "-1 -1 2\n"
+        },
+        {
+          "input": "5 5\n1 2\n1 3\n3 4\n4 5\n0 2\n",
+          "expected": "3 3 3 3 2\n"
+        }
+      ]
+    },
+    "G": {
+      "id": "abc257_g",
+      "contest_id": "abc257",
+      "label": "G",
+      "url": "https://atcoder.jp/contests/abc257/tasks/abc257_g",
+      "title": "Prefix Concatenation\n\t\t\tEditorial",
+      "memory_limit_bytes": 1073741824,
+      "time_limit_msecs": 2000,
+      "sample_cases": [
+        {
+          "input": "aba\nababaab\n",
+          "expected": "3\n"
+        },
+        {
+          "input": "atcoder\nac\n",
+          "expected": "-1\n"
+        }
+      ]
+    }
+  }
+}
